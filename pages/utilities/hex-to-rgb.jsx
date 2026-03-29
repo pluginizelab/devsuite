@@ -52,7 +52,7 @@ export default function HEXtoRGB(props) {
     };
     return (<main>
       <Meta title={props.title ??
-            "HEX to RGB converter | CSS Color Converter | Free & Open Source"} description="Easily convert HEX to RGB and RGB to HEX with Jam's free color converter tool. Perfect for quick color code conversions—just paste the value and copy the resulting code."/>
+            "HEX to RGB converter | CSS Color Converter | Free & Open Source"} description="Easily convert HEX to RGB and RGB to HEX with DevSuite's free color converter tool. Perfect for quick color code conversions—just paste the value and copy the resulting code."/>
       <Header />
       <CMDK />
 

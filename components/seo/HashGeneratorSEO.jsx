@@ -3,7 +3,7 @@ export default function HashGeneratorSEO() {
       <section>
         <h2>Generate Secure Hashes Online</h2>
         <p>
-          Jam's Hash Generator tool allows you to generate secure hashes using
+          DevSuite's Hash Generator tool allows you to generate secure hashes using
           various algorithms like SHA-256, SHA-512, MD5, and PBKDF2. Whether
           you're working on web development, data integrity, or cryptographic
           applications, our hash generator provides a simple and efficient way

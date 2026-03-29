@@ -4,7 +4,7 @@ export default function Base64ToImageSEO() {
       <section>
         <h2>Convert Base64 to Image</h2>
         <p>
-          Jam's free Base64 to Image converter lets you instantly preview
+          DevSuite's free Base64 to Image converter lets you instantly preview
           Base64-encoded image data. Simply paste your Base64 string and see the
           decoded image. This tool is perfect for developers working with
           embedded images, debugging API responses, or verifying Base64-encoded

@@ -4,7 +4,7 @@ export default function QueryParamsToJsonSEO() {
       <section>
         <p>
           You can convert URL query parameters into JSON format with this free
-          online tool. Made with 💜 by the developers building Jam.
+          online tool.
         </p>
       </section>
 
@@ -38,23 +38,6 @@ export default function QueryParamsToJsonSEO() {
             to share and exchange data between different systems and platforms.
           </li>
         </ul>
-      </section>
-
-      <section>
-        <h2>Meet Jam: The Ultimate Debugging Tool</h2>
-        <p>
-          Debugging is annoying enough without manually extracting and
-          converting URL query data. You can use Jam to capture all the
-          essential information, including console logs, network requests, etc
-          in 1 click.
-        </p>
-        <p>
-          Faster debugging is just a few seconds away - just download Jam,{" "}
-          <a href="https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci" target="_blank" rel="noreferrer">
-            the browser extension
-          </a>{" "}
-          helping over 140,000 users debug faster.
-        </p>
       </section>
 
       <section>

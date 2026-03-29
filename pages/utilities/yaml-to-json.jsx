@@ -28,7 +28,7 @@ export default function YAMLtoJSON() {
         }
     }, []);
     return (<main>
-      <Meta title="YAML to JSON | Free, Open Source & Ad-free" description="Convert YAML to JSON format quickly and easily with Jam's free online YAML to JSON converter. Just paste your YAML data and get the JSON result. That's it."/>
+      <Meta title="YAML to JSON | Free, Open Source & Ad-free" description="Convert YAML to JSON format quickly and easily with DevSuite's free online YAML to JSON converter. Just paste your YAML data and get the JSON result. That's it."/>
       <Header />
       <CMDK />
 

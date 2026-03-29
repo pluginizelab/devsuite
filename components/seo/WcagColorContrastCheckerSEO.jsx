@@ -11,7 +11,7 @@ export default function WcagColorContrastCheckerSEO() {
       </section>
 
       <section>
-        <h2>How to Use Jam's WCAG Color Contrast Checker</h2>
+        <h2>How to Use DevSuite's WCAG Color Contrast Checker</h2>
         <p>
           Quickly verify color contrast ratios and ensure your designs meet
           accessibility standards. Perfect for designers, developers, and anyone

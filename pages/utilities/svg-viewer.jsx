@@ -64,7 +64,7 @@ export default function SVGViewer() {
         processSVGContent(svgContent);
     }, [processSVGContent]);
     return (<main>
-      <Meta title="SVG Viewer | Free, Open Source & Ad-free" description="View SVG quickly and easily with Jam's free online SVG viewer. Just paste your SVG code and get the SVG result. That's it."/>
+      <Meta title="SVG Viewer | Free, Open Source & Ad-free" description="View SVG quickly and easily with DevSuite's free online SVG viewer. Just paste your SVG code and get the SVG result. That's it."/>
       <Header />
       <CMDK />
 

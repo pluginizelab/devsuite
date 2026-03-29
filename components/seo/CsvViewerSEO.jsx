@@ -11,7 +11,7 @@ export default function CsvViewerSEO() {
           instantly.
         </p>
         <p>
-          Built with care by the developers at Jam. Open source, ad-free, and
+          Built with care by the developers at DevSuite. Open source, ad-free, and
           works entirely in your browser.
         </p>
       </section>
@@ -96,7 +96,7 @@ export default function CsvViewerSEO() {
       <section>
         <h2>More CSV and Data Utilities</h2>
         <p>
-          Jam offers a collection of free developer tools for working with data.
+          DevSuite offers a collection of free developer tools for working with data.
           Convert between formats, parse files, and debug faster.
         </p>
         <ul>

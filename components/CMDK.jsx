@@ -5,6 +5,16 @@ import { tools } from "./utils/tools-list";
 import { Input } from "./ds/InputComponent";
 import { useEffect, useState } from "react";
 import { GitFork, Home, RocketIcon, UserPlus } from "lucide-react";
+export function CMDKTrigger({ onOpen, className }) {
+    return (<div className={`relative max-w-[320px] w-full ${className ?? ""}`}>
+      <Input placeholder="Search" onFocus={onOpen}/>
+      <div className="flex absolute top-[50%] right-[12px] text-sm text-muted-foreground translate-y-[-50%]">
+        <div className="pointer-events-none inline-flex h-5 select-none items-center gap-1 border bg-background text-foreground px-1.5 py-1 text-xs rounded-md">
+          CMD + K
+        </div>
+      </div>
+    </div>);
+}
 export function CMDK(props) {
     const [open, setOpen] = useState(false);
     const router = useRouter();
@@ -16,18 +26,16 @@ export function CMDK(props) {
                 setOpen((open) => !open);
             }
         };
+        const openPalette = () => setOpen(true);
         document.addEventListener("keydown", down);
-        return () => document.removeEventListener("keydown", down);
+        window.addEventListener("devsuite-open-cmdk", openPalette);
+        return () => {
+            document.removeEventListener("keydown", down);
+            window.removeEventListener("devsuite-open-cmdk", openPalette);
+        };
     }, []);
     return (<section className="flex justify-center">
-      {showSearch && (<div className="relative max-w-[320px] w-full">
-          <Input placeholder="Search" onFocus={() => setOpen(true)}/>
-          <div className="flex absolute top-[50%] right-[12px] text-sm text-muted-foreground translate-y-[-50%]">
-            <div className="pointer-events-none inline-flex h-5 select-none items-center gap-1 border bg-background text-foreground px-1.5 py-1 text-xs rounded-md">
-              CMD + K
-            </div>
-          </div>
-        </div>)}
+      {showSearch && <CMDKTrigger onOpen={() => setOpen(true)}/>}
 
       <CommandDialog open={open} onOpenChange={setOpen}>
         <CommandInput placeholder="Type a command or search..."/>
@@ -46,7 +54,7 @@ export function CMDK(props) {
             window.open("https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci?hl=en", "_blank");
         }}>
               <RocketIcon className="mr-2 h-4 w-4"/>
-              <span>Get Jam Chrome extension</span>
+              <span>Get DevSuite Chrome extension</span>
             </CommandItem>
             <CommandItem onSelect={() => {
             window.open("https://github.com/jamdotdev/jam-dev-utilities", "_blank");

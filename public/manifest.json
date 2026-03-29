@@ -1,9 +1,9 @@
 {
-  "name": "Jam.dev Utilities",
+  "name": "DevSuite.dev Utilities",
   "short_name": "DevUtilities",
   "background_color": "#FFFFFF",
   "categories": ["developer tools", "development", "utilities", "productivity"],
-  "description": "Jam exists to make developers lives easier. Here are fast, free, open source, ad-free tools.",
+  "description": "DevSuite exists to make developers lives easier. Here are fast, free, open source, ad-free tools.",
   "display": "standalone",
   "id": "/utilities",
   "lang": "en",

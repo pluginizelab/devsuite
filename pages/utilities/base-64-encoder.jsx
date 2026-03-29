@@ -33,7 +33,7 @@ export default function Base64Encoder() {
         setInput("");
     };
     return (<main>
-      <Meta title="Base64 Encoder/Decoder | Free, Open Source & Ad-free" description="Effortlessly encode and decode text to and from Base64 format with Jam's free online tool. Ensure safe data transmission and storage with web-friendly text formats."/>
+      <Meta title="Base64 Encoder/Decoder | Free, Open Source & Ad-free" description="Effortlessly encode and decode text to and from Base64 format with DevSuite's free online tool. Ensure safe data transmission and storage with web-friendly text formats."/>
       <Header />
       <CMDK />
 

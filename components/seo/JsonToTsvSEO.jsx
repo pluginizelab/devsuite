@@ -5,7 +5,7 @@ export default function JsonToTsvSEO() {
         <p>
           This free tool offers a quick and easy way to convert JSON files into
           TSV format. If you work with data analysis, spreadsheets, or need to
-          import data into various applications, you can use Jam's JSON to TSV
+          import data into various applications, you can use DevSuite's JSON to TSV
           converter to transform structured JSON data into tab-separated format.
         </p>
       </section>
@@ -13,7 +13,7 @@ export default function JsonToTsvSEO() {
       <section>
         <p>
           Simply paste your JSON data and get the TSV result. Built with 💜 by
-          the developers at Jam, using the open-source{" "}
+          the developers at DevSuite, using the open-source{" "}
           <a href="https://github.com/mholt/PapaParse" target="_blank" rel="noopener noreferrer">
             PapaParse
           </a>{" "}
@@ -22,7 +22,7 @@ export default function JsonToTsvSEO() {
       </section>
 
       <section>
-        <h2>How to Use Jam's JSON to TSV Converter Tool</h2>
+        <h2>How to Use DevSuite's JSON to TSV Converter Tool</h2>
         <p>
           Whether you're working on data analysis, creating reports, or
           importing data into spreadsheet applications, our converter makes it
@@ -52,7 +52,7 @@ export default function JsonToTsvSEO() {
       <section>
         <h2>More JSON Utilities</h2>
         <p>
-          Beautify JSON, convert from query parameters, CSV, or YAML with Jam's
+          Beautify JSON, convert from query parameters, CSV, or YAML with DevSuite's
           free developer utilities. They're all available in dark mode too.
         </p>
         <ul>
@@ -117,7 +117,7 @@ export default function JsonToTsvSEO() {
             between these formats.
           </li>
           <li>
-            <b>How easy is it to use the JSON to TSV converter?</b> <br /> Jam's
+            <b>How easy is it to use the JSON to TSV converter?</b> <br /> DevSuite's
             converter is user-friendly and intuitive, allowing anyone to use it
             without technical knowledge. Simply paste your JSON data, and the
             tool will do the rest.

@@ -4,7 +4,7 @@ export default function EnvToTomlSEO() {
         <p>
           This free tool allows you to quickly and easily convert your{" "}
           <kbd>.env</kbd> file variables into the format needed for your{" "}
-          <kbd>netlify.toml</kbd> file. This tool was contributed to Jam's dev
+          <kbd>netlify.toml</kbd> file. This tool was contributed to DevSuite's dev
           utilities by{" "}
           <a href="https://x.com/cassidoo" target="_blank" rel="noreferrer">
             Cassidy Williams

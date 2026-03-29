@@ -13,7 +13,7 @@ import Meta from "@/components/Meta";
 import { calculateContrast, isValidHex, normalizeHexInput, normalizeHexForDisplay, getContrastDescription, WCAG, } from "@/components/utils/wcag-color-contrast.utils";
 import { AlertCircle, Star } from "lucide-react";
 import { ComplianceBadge } from "@/components/WcagComplianceBadge";
-const TEXT_CONTENT = "Jam makes developers' lives easier with powerful debugging tools.";
+const TEXT_CONTENT = "DevSuite makes developers' lives easier with powerful debugging tools.";
 const DEFAULT_FOREGROUND_COLOR = "#000000";
 const DEFAULT_BACKGROUND_COLOR = "#FFFFFF";
 export default function WcagColorContrastChecker() {

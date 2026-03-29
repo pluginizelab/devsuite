@@ -5,7 +5,7 @@ export default function JsonToCsvSEO() {
         <p>
           This free tool offers a quick and easy way to convert JSON files into
           CSV format. If you work with data analysis, spreadsheets, or need to
-          import data into various applications, you can use Jam's JSON to CSV
+          import data into various applications, you can use DevSuite's JSON to CSV
           converter to transform structured JSON data into tabular CSV format.
         </p>
       </section>
@@ -13,7 +13,7 @@ export default function JsonToCsvSEO() {
       <section>
         <p>
           Simply paste your JSON data and get the CSV result. Built with 💜 by
-          the developers at Jam, using the open-source{" "}
+          the developers at DevSuite, using the open-source{" "}
           <a href="https://github.com/mholt/PapaParse" target="_blank" rel="noopener noreferrer">
             PapaParse
           </a>{" "}
@@ -22,7 +22,7 @@ export default function JsonToCsvSEO() {
       </section>
 
       <section>
-        <h2>How to Use Jam's JSON to CSV Converter Tool</h2>
+        <h2>How to Use DevSuite's JSON to CSV Converter Tool</h2>
         <p>
           Whether you're working on data analysis, creating reports, or
           importing data into spreadsheet applications, our converter makes it
@@ -93,7 +93,7 @@ export default function JsonToCsvSEO() {
             to CSV format effectively.
           </li>
           <li>
-            <b>How easy is it to use the JSON to CSV converter?</b> <br /> Jam's
+            <b>How easy is it to use the JSON to CSV converter?</b> <br /> DevSuite's
             converter is user-friendly and intuitive, allowing anyone to use it
             without technical knowledge. Simply paste your JSON data, and the
             tool will do the rest.

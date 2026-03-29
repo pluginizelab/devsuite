@@ -62,7 +62,7 @@ export default function PasswordGenerator() {
         includeSymbols,
     ]);
     return (<main>
-      <Meta title="Random String Generator | Free, Open Source & Ad-free" description="Generate cryptographically strong random strings with password-like structure instantly with Jam's free online Random String Generator. Choose your preferences or use all options by default — uppercase letters, lowercase letters, numbers, and special characters — and get a reliable random string in one click. That's it."/>
+      <Meta title="Random String Generator | Free, Open Source & Ad-free" description="Generate cryptographically strong random strings with password-like structure instantly with DevSuite's free online Random String Generator. Choose your preferences or use all options by default — uppercase letters, lowercase letters, numbers, and special characters — and get a reliable random string in one click. That's it."/>
       <Header />
       <CMDK />
 

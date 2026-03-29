@@ -7,11 +7,10 @@ export default function UrlEncoderSEO() {
           proper treatment of special characters, spaces, and non-ASCII symbols
           in web addresses and query strings.
         </p>
-        <p>Made with 💜 by the developers building Jam.</p>
       </section>
 
       <section>
-        <h2>How to Use Jam's URL Decode Tool</h2>
+        <h2>How to Use DevSuite's URL Decode Tool</h2>
         <p>
           Easily handle URL encoding and decoding - in one step. Just paste your
           URL and copy the result!
@@ -49,28 +48,6 @@ export default function UrlEncoderSEO() {
         </p>
       </section>
 
-      <section>
-        <h2>Meet Jam: The Ultimate Tool for Web Developers</h2>
-        <p>
-          While this URL tool helps you manage URLs efficiently,{" "}
-          <a href="https://jam.dev?ref=utils" target="_blank" rel="noreferrer">
-            Jam
-          </a>{" "}
-          takes your debugging process to the next level.
-        </p>
-        <p>
-          Meet Jam,{" "}
-          <a href="https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci" target="_blank" rel="noreferrer">
-            the browser extension
-          </a>{" "}
-          helping over 140,000 users debug faster. Jam captures console logs,
-          network requests, and more with just one click. Now anyone can log
-          comprehensive bug reports and you can debug so much faster.
-        </p>
-        <p>
-          Try Jam and get back to writing code instead of fixing old features.
-        </p>
-      </section>
       <section>
         <GetJamForFree />
       </section>
