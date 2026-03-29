@@ -100,7 +100,7 @@ export default function HashGenerator() {
         }
     }, [textInput, algorithm, hashFunctions]);
     return (<main>
-      <Meta title="Hash Generator | Free, Open Source & Ad-free" description="Generate secure hashes for your text using various algorithms like SHA-256, SHA-512, MD5, and PBKDF2 with Jam's free Hash Generator."/>
+      <Meta title="Hash Generator | Free, Open Source & Ad-free" description="Generate secure hashes for your text using various algorithms like SHA-256, SHA-512, MD5, and PBKDF2 with DevSuite's free Hash Generator."/>
       <Header />
       <CMDK />
 

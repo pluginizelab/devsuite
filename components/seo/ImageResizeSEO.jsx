@@ -13,7 +13,7 @@ export default function ImageResizeSEO() {
           This means the image will still be rasterized and can lose quality
           when resized. Whether you need to reduce file size, adjust dimensions,
           or convert formats, our tool can help. Made with 💜 by the developers
-          building Jam.
+          building DevSuite.
         </p>
       </section>
 
@@ -85,7 +85,7 @@ export default function ImageResizeSEO() {
       <section>
         <h2>More Image Tools: Easy Conversion</h2>
         <p>
-          Explore other image conversion tools available on Jam.dev for
+          Explore other image conversion tools available on DevSuite.dev for
           developers and designers. They're all free, open source, and available
           in dark mode too.
         </p>

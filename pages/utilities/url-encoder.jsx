@@ -35,7 +35,7 @@ export default function URLEncoder() {
         setInput("");
     };
     return (<main>
-      <Meta title="URL encoder/decoder | Free, Open Source & Ad-free" description="Easily encode and decode URLs online with Jam's free tool. Handle special characters, spaces, and non-ASCII symbols in web addresses and query strings efficiently."/>
+      <Meta title="URL encoder/decoder | Free, Open Source & Ad-free" description="Easily encode and decode URLs online with DevSuite's free tool. Handle special characters, spaces, and non-ASCII symbols in web addresses and query strings efficiently."/>
       <Header />
       <CMDK />
 

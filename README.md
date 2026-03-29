@@ -12,13 +12,13 @@
 <p align="center">
   <a href="https://github.com/jamdotdev/jam-dev-utilities?tab=readme-ov-file#getting-started"><strong>Getting started</strong></a> ·
   <a href="https://github.com/jamdotdev/jam-dev-utilities/blob/main/CONTRIBUTING.md"><strong>Contribution guide</strong></a> ·
-  <a href="https://jam.dev"><strong>Jam.dev</strong></a>
+  <a href="https://jam.dev"><strong>DevSuite.dev</strong></a>
 </p>
 <br/>
 
 ---
 
-### Jam.dev Utilities
+### DevSuite.dev Utilities
 
 Open-source data conversion utils for devs who don't like ads. Simple, lightweight and client-side so your data stays on-device. Plus, cmd+k search.
 
@@ -118,7 +118,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Reporting Issues
 
-If you encounter any issues, you can 1-click log them with [Jam](https://jam.dev) to this repo's [issue tracker](https://github.com/jamdotdev/jam-dev-utilities/issues).
+If you encounter any issues, you can 1-click log them with [DevSuite](https://jam.dev) to this repo's [issue tracker](https://github.com/jamdotdev/jam-dev-utilities/issues).
 
 We appreciate your feedback and will do our best to address the issues promptly!
 

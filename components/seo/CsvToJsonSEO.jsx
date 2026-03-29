@@ -4,7 +4,7 @@ export default function CsvToJsonSEO() {
       <section>
         <p>
           You can convert CSV files into JSON online with this free tool. If you
-          work with APIs, data, or web apps, you can use Jam's CSV to JSON
+          work with APIs, data, or web apps, you can use DevSuite's CSV to JSON
           converter to turn tabular data into JSON format.
         </p>
       </section>
@@ -12,7 +12,7 @@ export default function CsvToJsonSEO() {
       <section>
         <p>
           Just paste your CSV file and get the JSON result. Built with 💜 by the
-          developers at Jam, using the open-source{" "}
+          developers at DevSuite, using the open-source{" "}
           <a href="https://github.com/mholt/PapaParse" target="_blank" rel="noopener noreferrer">
             PapaParse
           </a>{" "}
@@ -21,7 +21,7 @@ export default function CsvToJsonSEO() {
       </section>
 
       <section>
-        <h2>How to Use Jam's CSV to JSON Converter Tool</h2>
+        <h2>How to Use DevSuite's CSV to JSON Converter Tool</h2>
         <p>
           Whether you're working on web development projects, data analysis, or
           integrating with APIs, this converter makes it easy to convert CSV
@@ -53,7 +53,7 @@ export default function CsvToJsonSEO() {
       <section>
         <h2>More JSON Utilities</h2>
         <p>
-          Beautify JSON, convert from query parameters, or YAML with Jam's free
+          Beautify JSON, convert from query parameters, or YAML with DevSuite's free
           developer utilities. They're all available in dark mode too.
         </p>
         <ul>
@@ -129,7 +129,7 @@ export default function CsvToJsonSEO() {
             data.
           </li>
           <li>
-            <b>How easy is it to use the CSV to JSON converter?</b> <br /> Jam's
+            <b>How easy is it to use the CSV to JSON converter?</b> <br /> DevSuite's
             converter is user-friendly and intuitive, allowing anyone to use it
             without technical knowledge. Simply paste your CSV file, and the
             tool will do the rest.

@@ -139,7 +139,7 @@ export default function InternetSpeedTestSEO() {
             <b>Is this speed test free?</b> <br />
             Yes, completely free with no registration required. No ads, no
             tracking, and open source. Just like all our developer utilities at
-            Jam.
+            DevSuite.
           </li>
         </ul>
       </section>

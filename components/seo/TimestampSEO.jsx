@@ -26,13 +26,13 @@ export default function TimestampSEO() {
           </li>
           <li>
             <b>Open Source:</b> <br /> Made with 💜 by the developers building
-            Jam.
+            DevSuite.
           </li>
         </ul>
       </section>
 
       <section>
-        <h2>How to use Jam&apos;s Online Timestamp Converter:</h2>
+        <h2>How to use DevSuite&apos;s Online Timestamp Converter:</h2>
         <p>
           Convert Unix timestamps to time and date in seconds. Using our epoch
           to date converter is straightforward:
@@ -112,7 +112,7 @@ export default function TimestampSEO() {
         <h2>FAQs:</h2>
         <ul>
           <li>
-            <b>How accurate is Jam&apos;s Unix time converter?</b> <br /> Our
+            <b>How accurate is DevSuite&apos;s Unix time converter?</b> <br /> Our
             converter gives you the correct date and time by taking into account
             both local and UTC time formats.
           </li>

@@ -1,9 +1,9 @@
 export default function CssUnitsConverter() {
     return (<div className="content-wrapper">
       <section>
-        <h2>CSS Units Converter by Jam.dev</h2>
+        <h2>CSS Units Converter by DevSuite.dev</h2>
         <p>
-          Jam's free tool for converting CSS units. Whether you need to convert
+          DevSuite's free tool for converting CSS units. Whether you need to convert
           from pixels (px) to rem, vw, or other units, this tool makes it easy
           to switch between different CSS units with precision. It's designed
           for developers and designers who need to ensure their web layouts are

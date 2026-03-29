@@ -13,7 +13,7 @@ export default function TsvToJsonSEO() {
       <section>
         <p>
           Paste your TSV content or drag and drop a .tsv file to get instant
-          JSON output. Built with 💜 by the developers at Jam, using the
+          JSON output. Built with 💜 by the developers at DevSuite, using the
           open-source{" "}
           <a href="https://github.com/mholt/PapaParse" target="_blank" rel="noopener noreferrer">
             PapaParse
@@ -53,7 +53,7 @@ export default function TsvToJsonSEO() {
       <section>
         <h2>Related Developer Utilities</h2>
         <p>
-          Jam offers a suite of free data conversion tools for developers. No
+          DevSuite offers a suite of free data conversion tools for developers. No
           ads, no sign-ups, and dark mode included.
         </p>
         <ul>

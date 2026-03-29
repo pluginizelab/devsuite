@@ -4,7 +4,7 @@ export default function LoremIpsumGeneratorSEO() {
         <p>
           Quickly generate random placeholder text with our Lorem Ipsum
           Generator. Whether you're a web developer, graphic designer or content
-          creator, Jam's free Lorem Ipsum tool makes it easy to generate filler
+          creator, DevSuite's free Lorem Ipsum tool makes it easy to generate filler
           text to suit your needs.
         </p>
       </section>

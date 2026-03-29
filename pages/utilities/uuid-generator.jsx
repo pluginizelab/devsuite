@@ -13,7 +13,7 @@ export default function UuidGenerator() {
     const { buttonText, handleCopy } = useCopyToClipboard("Copy");
     const [currentUuid, setCurrentUUid] = useState(crypto.randomUUID());
     return (<main>
-      <Meta title="UUID Generator | Free, Open Source & Ad-free" description="Generate Random UUIDs with Jam's free UUID Generator."/>
+      <Meta title="UUID Generator | Free, Open Source & Ad-free" description="Generate Random UUIDs with DevSuite's free UUID Generator."/>
       <Header />
       <CMDK />
 

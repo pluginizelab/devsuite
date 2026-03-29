@@ -4,14 +4,14 @@ export default function RandomStringGeneratorSEO() {
         <p>
           Generate cryptographically secure random strings instantly with this
           free online random string generator. Whether you&apos;re creating API
-          keys, tokens, or secure identifiers, Jam&apos;s Random String
+          keys, tokens, or secure identifiers, DevSuite&apos;s Random String
           Generator creates strong, randomized strings with password-like
           structure to keep your applications secure.
         </p>
       </section>
 
       <section>
-        <h2>How to Use Jam&apos;s Random String Generator</h2>
+        <h2>How to Use DevSuite&apos;s Random String Generator</h2>
         <p>
           Quickly create a cryptographically strong random string tailored to
           your needs. Follow these simple steps:

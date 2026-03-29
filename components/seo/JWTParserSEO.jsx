@@ -4,14 +4,14 @@ export default function JWTParserSEO() {
         <h2>Decode JWT Tokens Instantly</h2>
         <p>
           Easily decode JWT tokens and view their header, payload, and signature
-          with Jam's free online JWT Parser. Whether you're a developer working
+          with DevSuite's free online JWT Parser. Whether you're a developer working
           with authentication, or just need to inspect a token, our tool
           provides a simple way to analyze JSON Web Tokens.
         </p>
       </section>
 
       <section>
-        <h2>How to Use Jam's JWT Parser</h2>
+        <h2>How to Use DevSuite's JWT Parser</h2>
         <p>
           Quickly decode and analyze JWT tokens with our user-friendly tool.
           Ideal for developers, security experts, and anyone working with JSON

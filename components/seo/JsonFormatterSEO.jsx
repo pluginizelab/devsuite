@@ -5,7 +5,7 @@ export default function JsonFormatterSEO() {
         <p>
           You can use this JSON formatter to beautify your JSON and make it
           easier to read. Just paste your minified JSON and get the formatted
-          result. Made with 💜 by the developers building Jam.
+          result.
         </p>
       </section>
 
@@ -59,7 +59,7 @@ export default function JsonFormatterSEO() {
       <section>
         <h2>More JSON conversion tools for other programming languages</h2>
         <p>
-          Convert CSV, query parameters, or YAML to JSON with Jam's free
+          Convert CSV, query parameters, or YAML to JSON with DevSuite's free
           developer utilities. They're all available in dark mode too.
         </p>
         <ul>

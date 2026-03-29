@@ -37,7 +37,7 @@ export default function JWTParser() {
         }
     }, []);
     return (<main>
-      <Meta title="JWT Parser | Free, Open Source & Ad-free" description="Decode JWT tokens quickly and easily with Jam's free online JWT Decoder. Just paste your token and get the decoded result. That's it."/>
+      <Meta title="JWT Parser | Free, Open Source & Ad-free" description="Decode JWT tokens quickly and easily with DevSuite's free online JWT Decoder. Just paste your token and get the decoded result. That's it."/>
       <Header />
       <CMDK />
 

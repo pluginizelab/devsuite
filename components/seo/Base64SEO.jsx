@@ -8,7 +8,7 @@ export default function Base64SEO() {
           Use this free Base64 encoder and decoder to easily convert between
           plain text and Base64-encoded strings. This tool is perfect for
           decoding API responses. No need to sign up — just paste your data and
-          convert instantly. Made with 💜 by the developers building Jam.
+          convert instantly.
         </p>
       </section>
 
@@ -80,33 +80,6 @@ export default function Base64SEO() {
           These functions make it easy to handle encoding and decoding directly
           within your JavaScript code, enabling smooth data processing and
           transmission in web applications.
-        </p>
-      </section>
-
-      <section>
-        <h2>Meet Jam: The Ultimate Tool for Debugging Web Apps</h2>
-        <p>
-          While this tool helps you manage encoding and decoding efficiently,{" "}
-          <a href="https://jam.dev?ref=utils" target="_blank" rel="noreferrer">
-            Jam
-          </a>{" "}
-          takes your debugging process to the next level.
-        </p>
-        <p>
-          Jam is{" "}
-          <a href="https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci" target="_blank" rel="noreferrer">
-            the browser extension
-          </a>{" "}
-          helping over 140,000 users debug faster. It captures console logs,
-          network requests, and more with just one click. Now anyone can log
-          comprehensive bug reports and you can debug so much faster without
-          having to follow up.
-        </p>
-        <p>
-          Whether you're dealing with Base64-encoded data or debugging
-          JavaScript functions in your web applications, you can use Jam to
-          capture your screen and it automatically includes all the debug
-          details developers need to fix issues in a shareable link.
         </p>
       </section>
 

@@ -114,7 +114,7 @@ export default function RegexTester() {
         }
     }, [pattern, testString, handleTest]);
     return (<main>
-      <Meta title="Regex Tester & Playground | Free, Open Source & Ad-free" description="Interactive regex playground with pattern explanation, capture group visualization, and preset patterns. Test your regular expressions quickly and easily with Jam's free online Regex Tester."/>
+      <Meta title="Regex Tester & Playground | Free, Open Source & Ad-free" description="Interactive regex playground with pattern explanation, capture group visualization, and preset patterns. Test your regular expressions quickly and easily with DevSuite's free online Regex Tester."/>
       <Header />
       <CMDK />
 

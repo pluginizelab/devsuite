@@ -18,7 +18,7 @@ export default function HarFileViewerSEO() {
         <h2>How to view HAR files online</h2>
         <p>
           Upload your HAR files instantly and start analyzing them online. Made
-          with 💜 by the developers at Jam.
+          with 💜 by the developers at DevSuite.
         </p>
       </section>
 
@@ -88,26 +88,6 @@ export default function HarFileViewerSEO() {
             sharing with your team.
           </li>
         </ul>
-      </section>
-
-      <section>
-        <h2>Meet Jam: Everything in a HAR File + More in 1 Click</h2>
-        <p>
-          Chances are you’re stuck explaining all those steps above to actually
-          get a HAR file (or trying to reproduce issues so you can get it
-          yourself).
-        </p>
-        <p>
-          Skip the manual process of generating HAR files — let Jam do the work
-          for you. With Jam’s browser extension, you get everything a HAR file
-          offers plus automatic steps to reproduce, metadata, and AI-powered
-          debugging assistance. In just one click, Jam captures your screen and
-          all the data you need to resolve bugs quickly.
-        </p>
-        <p>
-          Try it within minutes and debug faster with the same shortcuts you use
-          on Chrome dev tools.
-        </p>
       </section>
 
       <section>

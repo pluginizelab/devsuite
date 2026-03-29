@@ -553,7 +553,7 @@ export default function ImageResize() {
         commitTransformedOutput,
     ]);
     return (<main>
-      <Meta title="Image Resizer | Free, Open Source & Ad-free" description="Resize images online with Jam's free and open source Image Resizer. Adjust dimensions, maintain aspect ratio, and choose between PNG and JPEG formats."/>
+      <Meta title="Image Resizer | Free, Open Source & Ad-free" description="Resize images online with DevSuite's free and open source Image Resizer. Adjust dimensions, maintain aspect ratio, and choose between PNG and JPEG formats."/>
       <Header />
       <CMDK />
 

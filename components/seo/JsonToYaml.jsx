@@ -5,7 +5,7 @@ export default function JsonToYamlSEO() {
         <p>
           This free tool quickly converts JSON to YAML. Ideal for configuration
           files, data, or web apps. Just paste your JSON data and get the YAML
-          result. Built with 💜 by the Jam developers, using the open-source{" "}
+          result. Built with 💜 by the DevSuite developers, using the open-source{" "}
           <a href="https://github.com/nodeca/js-yaml" target="_blank" rel="noopener noreferrer">
             js-yaml
           </a>{" "}
@@ -36,7 +36,7 @@ export default function JsonToYamlSEO() {
       <section>
         <h2>More JSON conversion tools</h2>
         <p>
-          Convert to CSV, query parameters, or beautify JSON with Jam's free
+          Convert to CSV, query parameters, or beautify JSON with DevSuite's free
           developer utilities. They're all available in dark mode too.
         </p>
         <ul>
@@ -151,7 +151,7 @@ export default function JsonToYamlSEO() {
             developers and anyone who works with configuration files.
           </li>
           <li>
-            <b>How easy is it to use the JSON converter?</b> <br /> Jam's
+            <b>How easy is it to use the JSON converter?</b> <br /> DevSuite's
             converter is user-friendly and intuitive, allowing anyone to use it.
             Simply paste your data, and the tool will do the rest.
           </li>

@@ -4,7 +4,7 @@ export default function HexToRgbSEO() {
       <section>
         <p>
           Easily convert HEX CSS/HTML color codes to RGB. Whether you're working
-          with CSS, Objective-C, Swift, or Android, Jam's free color code
+          with CSS, Objective-C, Swift, or Android, DevSuite's free color code
           converter has you covered.
         </p>
       </section>

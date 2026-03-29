@@ -47,7 +47,7 @@ export default function ImageToBase64() {
         return () => document.removeEventListener("paste", handlePaste);
     }, [handleFileSelect]);
     return (<main>
-      <Meta title="Image to Base64 Converter | Free, Open Source & Ad-free" description="Convert images to Base64 format quickly and easily with Jam's free online image to Base64 converter. Just drag and drop your image and get the Base64 result. That's it."/>
+      <Meta title="Image to Base64 Converter | Free, Open Source & Ad-free" description="Convert images to Base64 format quickly and easily with DevSuite's free online image to Base64 converter. Just drag and drop your image and get the Base64 result. That's it."/>
       <Header />
       <CMDK />
 

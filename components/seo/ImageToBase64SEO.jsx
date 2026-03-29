@@ -4,7 +4,7 @@ export default function ImageToBase64SEO() {
       <section>
         <h2>Convert Image to Data URI</h2>
         <p>
-          Jam's free tool to convert images to Data URI comes in handy when you
+          DevSuite's free tool to convert images to Data URI comes in handy when you
           need to reduce HTTP requests. Convert images to base64 so you can
           embed them directly into HTML, CSS, or JavaScript. This image to Data
           URI converter is simple and fast.

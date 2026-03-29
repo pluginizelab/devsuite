@@ -71,12 +71,12 @@ export const tools = [
     },
     {
         title: "JSON to CSV",
-        description: "Transform your JSON data into sleek CSV format with Jam's free online converter. Simply paste your JSON and watch the magic happen!",
+        description: "Transform your JSON data into sleek CSV format with DevSuite's free online converter. Simply paste your JSON and watch the magic happen!",
         link: "/utilities/json-to-csv",
     },
     {
         title: "JSON to TSV",
-        description: "Transform your JSON data into TSV format with Jam's free online converter. Simply paste your JSON and get tab-separated output instantly.",
+        description: "Transform your JSON data into TSV format with DevSuite's free online converter. Simply paste your JSON and get tab-separated output instantly.",
         link: "/utilities/json-to-tsv",
     },
     {

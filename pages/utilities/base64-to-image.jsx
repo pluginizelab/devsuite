@@ -78,7 +78,7 @@ export default function Base64ToImage() {
         setImageSrc(null);
     }, []);
     return (<main>
-      <Meta title="Base64 to Image Converter | Free, Open Source & Ad-free" description="Convert Base64 strings to images instantly with Jam's free online tool. Just paste your Base64-encoded image data and see the preview. Fast, free, and developer-friendly."/>
+      <Meta title="Base64 to Image Converter | Free, Open Source & Ad-free" description="Convert Base64 strings to images instantly with DevSuite's free online tool. Just paste your Base64-encoded image data and see the preview. Fast, free, and developer-friendly."/>
       <Header />
       <CMDK />
 

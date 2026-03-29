@@ -31,7 +31,7 @@ export default function JSONtoTSV() {
         }
     }, []);
     return (<main>
-      <Meta title="JSON to TSV Converter | Free, Open Source & Ad-free" description="Convert JSON files to TSV format quickly and easily with Jam's free online JSON to TSV converter. Just paste your JSON file and get the TSV result. That's it."/>
+      <Meta title="JSON to TSV Converter | Free, Open Source & Ad-free" description="Convert JSON files to TSV format quickly and easily with DevSuite's free online JSON to TSV converter. Just paste your JSON file and get the TSV result. That's it."/>
       <Header />
       <CMDK />
 

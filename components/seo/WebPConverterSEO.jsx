@@ -49,7 +49,7 @@ export default function WebPConverterSEO() {
       <section>
         <h2>More Image Utilities</h2>
         <p>
-          Optimize and convert images with Jam's suite of free image tools, all
+          Optimize and convert images with DevSuite's suite of free image tools, all
           available with dark mode support.
         </p>
         <ul>

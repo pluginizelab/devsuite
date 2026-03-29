@@ -114,7 +114,7 @@ Bob,35,UK`;
         fileInputRef.current?.click();
     }, []);
     return (<main>
-      <Meta title="CSV to JSON Converter | Free, Open Source & Ad-free" description="Convert CSV files to JSON format quickly and easily with Jam's free online CSV to JSON converter. Upload your CSV file or paste its content and get the JSON result. That's it."/>
+      <Meta title="CSV to JSON Converter | Free, Open Source & Ad-free" description="Convert CSV files to JSON format quickly and easily with DevSuite's free online CSV to JSON converter. Upload your CSV file or paste its content and get the JSON result. That's it."/>
       <Header />
       <CMDK />
 
