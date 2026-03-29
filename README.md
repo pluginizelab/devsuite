@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://jam.dev/utilities">
-    <img src="https://storage.googleapis.com/jam-assets/github-repo.png">
-    <a href="https://jam.dev/utilities"><strong>jam.dev/utilities</strong></a>
+  <a href="https://github.com/pluginizelab/dev-toolkits">
+    <img src="https://raw.githubusercontent.com/pluginizelab/dev-toolkits/main/public/dev-suite-logo.png" alt="DevSuite logo" width="120">
   </a>
+  <a href="https://github.com/pluginizelab/dev-toolkits"><strong>pluginizelab/dev-toolkits</strong></a>
 </p>
 
 <p align="center">
@@ -10,52 +10,58 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/jamdotdev/jam-dev-utilities?tab=readme-ov-file#getting-started"><strong>Getting started</strong></a> ·
-  <a href="https://github.com/jamdotdev/jam-dev-utilities/blob/main/CONTRIBUTING.md"><strong>Contribution guide</strong></a> ·
-  <a href="https://jam.dev"><strong>DevSuite.dev</strong></a>
+  <a href="https://github.com/pluginizelab/dev-toolkits#getting-started"><strong>Getting started</strong></a> ·
+  <a href="https://github.com/pluginizelab/dev-toolkits/blob/main/CONTRIBUTING.md"><strong>Contribution guide</strong></a> ·
+  <a href="https://aiarnob.com"><strong>aiarnob.com</strong></a>
 </p>
 <br/>
 
 ---
 
-### DevSuite.dev Utilities
+### DevSuite Utilities
 
 Open-source data conversion utils for devs who don't like ads. Simple, lightweight and client-side so your data stays on-device. Plus, cmd+k search.
 
+### Attribution
+
+- Initially cloned from [jamdotdev/jam-dev-utilities](https://github.com/jamdotdev/jam-dev-utilities).
+- The original project is licensed under GPL-3.0.
+- This codebase is now customized and maintained by us.
+
 Here is the list of all utilities:
 
-- [CSV to JSON](https://jam.dev/utilities/csv-to-json)
-- [TSV to JSON](https://jam.dev/utilities/tsv-to-json)
-- [Base64 Encode/Decode](https://jam.dev/utilities/base-64-encoder)
-- [JSON Formatter](https://jam.dev/utilities/json-formatter)
-- [YAML to JSON](https://jam.dev/utilities/yaml-to-json)
-- [URL Encode/Decode](https://jam.dev/utilities/url-encoder)
-- [Timestamp to Date Converter](https://jam.dev/utilities/timestamp-to-date)
-- [Query Parameters to JSON](https://jam.dev/utilities/query-params-to-json)
-- [HEX to RGB Converter](https://jam.dev/utilities/hex-to-rgb)
-- [Convert .env to netlify.toml](https://jam.dev/utilities/env-to-netlify-toml)
-- [Image to Base64 Converter](https://jam.dev/utilities/image-to-base64)
-- [Base64 to Image Converter](https://jam.dev/utilities/base64-to-image)
-- [JSON to CSV](https://jam.dev/utilities/json-to-csv)
-- [JSON to TSV](https://jam.dev/utilities/json-to-tsv)
-- [HAR file viewer](https://jam.dev/utilities/har-file-viewer)
-- [JSON to YAML](https://jam.dev/utilities/json-to-yaml)
-- [Number Base Changer](https://jam.dev/utilities/number-base-changer)
-- [CSS Inliner for Email](https://jam.dev/utilities/css-inliner-for-email)
-- [Regex Tester](https://jam.dev/utilities/regex-tester)
-- [Image Resizer](https://jam.dev/utilities/image-resizer)
-- [CSS Units Converter](https://jam.dev/utilities/css-units-converter)
-- [JWT Parser](https://jam.dev/utilities/jwt-parser)
-- [Hash Generator](https://jam.dev/utilities/hash-generator)
-- [UUID Generator](https://jam.dev/utilities/uuid-generator)
-- [SVG Viewer](https://jam.dev/utilities/svg-viewer)
-- [Lorem Ipsum Generator](https://jam.dev/utilities/lorem-ipsum-generator)
-- [WebP Converter](https://jam.dev/utilities/webp-converter)
-- [SQL Minifer](https://jam.dev/utilities/sql-minifier)
-- [Internet Speed Test](https://jam.dev/utilities/internet-speed-test)
-- [Random String Generator](https://jam.dev/utilities/random-string-generator)
-- [CSV file viewer](https://jam.dev/utilities/csv-file-viewer)
-- [JSONL Validator](https://jam.dev/utilities/jsonl-validator)
+- [CSV to JSON](https://devsuite.plugizelab.com/csv-to-json)
+- [TSV to JSON](https://devsuite.plugizelab.com/tsv-to-json)
+- [Base64 Encode/Decode](https://devsuite.plugizelab.com/base-64-encoder)
+- [JSON Formatter](https://devsuite.plugizelab.com/json-formatter)
+- [YAML to JSON](https://devsuite.plugizelab.com/yaml-to-json)
+- [URL Encode/Decode](https://devsuite.plugizelab.com/url-encoder)
+- [Timestamp to Date Converter](https://devsuite.plugizelab.com/timestamp-to-date)
+- [Query Parameters to JSON](https://devsuite.plugizelab.com/query-params-to-json)
+- [HEX to RGB Converter](https://devsuite.plugizelab.com/hex-to-rgb)
+- [Convert .env to netlify.toml](https://devsuite.plugizelab.com/env-to-netlify-toml)
+- [Image to Base64 Converter](https://devsuite.plugizelab.com/image-to-base64)
+- [Base64 to Image Converter](https://devsuite.plugizelab.com/base64-to-image)
+- [JSON to CSV](https://devsuite.plugizelab.com/json-to-csv)
+- [JSON to TSV](https://devsuite.plugizelab.com/json-to-tsv)
+- [HAR file viewer](https://devsuite.plugizelab.com/har-file-viewer)
+- [JSON to YAML](https://devsuite.plugizelab.com/json-to-yaml)
+- [Number Base Changer](https://devsuite.plugizelab.com/number-base-changer)
+- [CSS Inliner for Email](https://devsuite.plugizelab.com/css-inliner-for-email)
+- [Regex Tester](https://devsuite.plugizelab.com/regex-tester)
+- [Image Resizer](https://devsuite.plugizelab.com/image-resizer)
+- [CSS Units Converter](https://devsuite.plugizelab.com/css-units-converter)
+- [JWT Parser](https://devsuite.plugizelab.com/jwt-parser)
+- [Hash Generator](https://devsuite.plugizelab.com/hash-generator)
+- [UUID Generator](https://devsuite.plugizelab.com/uuid-generator)
+- [SVG Viewer](https://devsuite.plugizelab.com/svg-viewer)
+- [Lorem Ipsum Generator](https://devsuite.plugizelab.com/lorem-ipsum-generator)
+- [WebP Converter](https://devsuite.plugizelab.com/webp-converter)
+- [SQL Minifer](https://devsuite.plugizelab.com/sql-minifier)
+- [Internet Speed Test](https://devsuite.plugizelab.com/internet-speed-test)
+- [Random String Generator](https://devsuite.plugizelab.com/random-string-generator)
+- [CSV file viewer](https://devsuite.plugizelab.com/csv-file-viewer)
+- [JSONL Validator](https://devsuite.plugizelab.com/jsonl-validator)
 
 ### Built With
 
@@ -85,13 +91,13 @@ To start the development server, follow these steps:
 Clone the repository:
 
 ```bash
-git clone https://github.com/jamdotdev/jam-dev-utilities.git
+git clone https://github.com/pluginizelab/dev-toolkits.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd jam-dev-utilities
+cd dev-toolkits
 ```
 
 For macOS users with ARM architecture (M series processors), it's crucial to install these dependencies using `brew` to ensure full compatibility with the `node-canvas` library. This step is essential to prevent potential failures during the `npm install` process.
@@ -118,7 +124,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Reporting Issues
 
-If you encounter any issues, you can 1-click log them with [DevSuite](https://jam.dev) to this repo's [issue tracker](https://github.com/jamdotdev/jam-dev-utilities/issues).
+If you encounter any issues, you can open a ticket in this repo's [issue tracker](https://github.com/pluginizelab/dev-toolkits/issues).
 
 We appreciate your feedback and will do our best to address the issues promptly!
 
@@ -142,14 +148,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ```bash
 # Build the Docker image
-docker build -t jam-dev-utilities .
+docker build -t dev-toolkits .
 
 # Run the container
-docker run -p 3000:3000 jam-dev-utilities
+docker run -p 3000:3000 dev-toolkits
 ```
 
 ## Contributing
 
 We welcome and appreciate any contributions!
 
-Check out the [contribution guide](https://github.com/jamdotdev/jam-dev-utilities/blob/main/CONTRIBUTING.md).
+Check out the [contribution guide](https://github.com/pluginizelab/dev-toolkits/blob/main/CONTRIBUTING.md).
