@@ -1,0 +1,163 @@
+import { act, render, screen, within } from "@testing-library/react";
+import { userEvent } from "@testing-library/user-event";
+import HARFileViewer from "../../../pages/utilities/har-file-viewer";
+// Mock HAR file data
+const mockHarData = {
+    log: {
+        entries: [
+            {
+                request: {
+                    url: "https://example.com/api/test",
+                    method: "GET",
+                    headers: [
+                        { name: "User-Agent", value: "Mozilla/50" },
+                        { name: "Accept", value: "application/json" },
+                    ],
+                },
+                response: {
+                    status: 200,
+                    content: {
+                        size: 124,
+                        mimeType: "application/json",
+                        text: '{"message": "success"}',
+                    },
+                    headers: [{ name: "Content-Type", value: "application/json" }],
+                },
+                time: 150,
+                startedDateTime: "2023-01-01T00:00:00",
+            },
+            {
+                request: {
+                    url: "https://example.com/css/style.css",
+                    method: "GET",
+                    headers: [{ name: "User-Agent", value: "Mozilla/50" }],
+                },
+                response: {
+                    status: 404,
+                    content: {
+                        size: 248,
+                        mimeType: "text/css",
+                        text: "body { color: red; }",
+                    },
+                    headers: [{ name: "Content-Type", value: "text/css" }],
+                },
+                time: 75,
+                startedDateTime: "2023-01-01T00:00:01.000Z",
+            },
+        ],
+    },
+};
+describe("HARFileViewer", () => {
+    beforeEach(() => {
+        jest.useFakeTimers();
+    });
+    afterEach(() => {
+        act(() => {
+            jest.runOnlyPendingTimers();
+        });
+        jest.useRealTimers();
+    });
+    const uploadHarFile = async (user) => {
+        const file = new File([JSON.stringify(mockHarData)], "test.har", {
+            type: "application/json",
+        });
+        const fileInput = screen.getByTestId("input");
+        await user.upload(fileInput, file);
+    };
+    const flushDebounce = async () => {
+        await act(async () => {
+            jest.advanceTimersByTime(350);
+        });
+    };
+    const switchToTableView = async (user) => {
+        const tableTab = await screen.findByRole("tab", { name: /table view/i });
+        await user.click(tableTab);
+    };
+    test("should render the component and display the drop zone text", () => {
+        render(<HARFileViewer />);
+        expect(screen.getByText("Drop your .har or .json file here")).toBeInTheDocument();
+    });
+    test("should list all requests after uploading a har file", async () => {
+        const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime });
+        render(<HARFileViewer />);
+        await uploadHarFile(user);
+        await switchToTableView(user);
+        // Wait for the requests to be displayed
+        await screen.findByText("https://example.com/api/test");
+        await screen.findByText("https://example.com/css/style.css");
+    });
+    test("should list the status code for every request", async () => {
+        const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime });
+        render(<HARFileViewer />);
+        await uploadHarFile(user);
+        await switchToTableView(user);
+        // Get all rows
+        const rows = await screen.findAllByTestId("table-row");
+        // For the 1st row, get status code column and verify if its 200
+        const row1 = within(rows[0]).getByTestId("column-status-code");
+        expect(row1).toHaveTextContent("200");
+        // For the 2nd row, get status code column and verify if its 404
+        const row2 = within(rows[1]).getByTestId("column-status-code");
+        expect(row2).toHaveTextContent("404");
+    });
+    test("should accept and process .json file extension", async () => {
+        const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime });
+        render(<HARFileViewer />);
+        const file = new File([JSON.stringify(mockHarData)], "test.json", {
+            type: "application/json",
+        });
+        const fileInput = screen.getByTestId("input");
+        await user.upload(fileInput, file);
+        await switchToTableView(user);
+        // Wait for the requests to be displayed - this verifies the file was accepted
+        await screen.findByText("https://example.com/api/test");
+        await screen.findByText("https://example.com/css/style.css");
+        // Verify status codes are displayed correctly
+        const rows = await screen.findAllByTestId("table-row");
+        const row1 = within(rows[0]).getByTestId("column-status-code");
+        expect(row1).toHaveTextContent("200");
+    });
+    test("should filter requests based on search query", async () => {
+        const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime });
+        render(<HARFileViewer />);
+        // Upload a HAR file
+        await uploadHarFile(user);
+        await switchToTableView(user);
+        // Wait for all requests to be displayed
+        await screen.findByText("https://example.com/api/test");
+        await screen.findByText("https://example.com/css/style.css");
+        // Find the search input
+        const searchInput = screen.getByPlaceholderText("Search in URLs, headers, requests, and responses...");
+        // Search for "api" - should only show the first request
+        await user.type(searchInput, "api");
+        // Wait for debounce (300ms) + rendering time
+        await flushDebounce();
+        // Should still see the api request
+        const rows = screen.queryAllByTestId("table-row");
+        expect(rows.length).toBe(1);
+        expect(rows[0]).toHaveTextContent("https://example.com/api/test");
+    });
+    test("should clear search query when clear button is clicked", async () => {
+        const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime });
+        render(<HARFileViewer />);
+        // Upload a HAR file
+        await uploadHarFile(user);
+        await switchToTableView(user);
+        // Wait for requests to be displayed
+        await screen.findByText("https://example.com/api/test");
+        // Find and use the search input
+        const searchInput = screen.getByPlaceholderText("Search in URLs, headers, requests, and responses...");
+        await user.type(searchInput, "api");
+        // Wait for debounce
+        await flushDebounce();
+        // Find the clear button (it should appear when there's text)
+        const clearButton = screen.getByTitle("Clear search");
+        await user.click(clearButton);
+        await flushDebounce();
+        // Search input should be empty
+        expect(searchInput).toHaveValue("");
+        // Both requests should be visible again
+        await screen.findByText("https://example.com/api/test");
+        await screen.findByText("https://example.com/css/style.css");
+    });
+});

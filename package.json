@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'",
-    "format:check": "prettier --check '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
+    "format": "prettier --write '**/*.{js,jsx,json,css,scss,md}'",
+    "format:check": "prettier --check '**/*.{js,jsx,json,css,scss,md}'"
   },
   "dependencies": {
     "@cloudflare/speedtest": "^1.6.0",
@@ -52,8 +52,6 @@
     "@types/react-color": "^3.0.13",
     "@types/react-dom": "^18",
     "@types/react-syntax-highlighter": "^15.5.13",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
     "canvas": "^2.11.2",
     "copy-webpack-plugin": "^12.0.2",
     "eslint": "^8",
@@ -65,9 +63,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "postcss": "^8",
     "prettier": "^3.3.3",
-    "tailwindcss": "^3.4.1",
-    "ts-jest": "^29.2.4",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.1"
   },
   "engines": {
     "node": "20.9.0"
