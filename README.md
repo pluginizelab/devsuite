@@ -2,6 +2,7 @@
   <a href="https://github.com/pluginizelab/dev-toolkits">
     <img src="https://raw.githubusercontent.com/pluginizelab/dev-toolkits/main/public/dev-suite-logo.png" alt="DevSuite logo" width="120">
   </a>
+  <br/>
   <a href="https://github.com/pluginizelab/dev-toolkits"><strong>pluginizelab/dev-toolkits</strong></a>
 </p>
 
