@@ -12,9 +12,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-5">Dev Utilities</h1>
 
         <p className="text-lg text-muted-foreground mb-7 leading-6 font-light">
-          DevSuite exists to make developers lives easier.
-          <br />
-          Here are fast, free, open source, ad-free tools.
+          Developers deserve tools as refreshing as cold watermelon. So we built them. You're welcome.
         </p>
         <CMDK showSearch/>
       </div>
